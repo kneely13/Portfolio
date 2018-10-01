@@ -20,7 +20,7 @@ button.startBtn {
     float:right;
 }
 
-#masthead {
+.masthead {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -46,7 +46,7 @@ button.startBtn {
   
 
 
-#search{
+#about{
     position:absolute;
     top:12%; 
     left:0px;
@@ -54,9 +54,9 @@ button.startBtn {
     bottom:40%;
     background-color:lightblue;
     margin:20px;
-    margin-left:1px;
+    
 }
-#product{
+#contact{
     position:absolute;
     top:12%; 
     right:0px;
@@ -66,7 +66,7 @@ button.startBtn {
     margin:20px;
 }
 
-#ads{
+#projects{
     position:absolute;
     top:60%; 
     left:0px;
@@ -76,3 +76,53 @@ button.startBtn {
     margin:20px;
 }
 
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #C9E1C1;
+    opacity: 0.8;
+    filter: alpha(opacity=90);
+    border: 1px solid #666666;
+    color:white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 15px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #1D2F3E;
+    border-top: 8px solid #4aaaa5;
+    height: 100%;
+  }
