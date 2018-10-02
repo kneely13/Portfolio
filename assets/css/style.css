@@ -7,6 +7,13 @@ body {
     margin: 0 auto;
 }
 
+a {
+  color:white;
+}
+a:hover {
+color:gold;
+}
+
 .intro {
   position: absolute;
   top: 50%;
@@ -21,7 +28,7 @@ button.startBtn {
 }
 
 .masthead {
-    position: fixed;
+    
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -29,6 +36,7 @@ button.startBtn {
     color: #fff;
     
   }
+
 
   nav {
     float: left;
@@ -76,6 +84,15 @@ button.startBtn {
     margin:20px;
 }
 
+#pageScrollTitle {
+  position: absolute;
+  top: 27%;
+  left: 31%;
+  right: 40%;
+  margin-top: -50px;
+  color: white;
+  font-size: xx-large;
+}
 
 .container {
     width: 100%;
@@ -83,7 +100,6 @@ button.startBtn {
     margin: 0 auto;
     clear: both;
   }
-
 
 #main-container {
     padding-top: 130px;
@@ -105,21 +121,64 @@ button.startBtn {
 
 
 .parallaxContainer {
-  max-width: 960px;
-  margin: 0 auto;
-  background: #f9f9f9;
+  /* max-width: 95%; */
+  margin: 500px auto;
+  color:white;
+  background: lightgreen;
   font-size: 24px;
-  padding:25px;
+  /* padding:25px; */
 }
 
-.parallax {
-  background: transparent;
+.parrallaxOne {
+  background: url("../images/hangman-cover.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
 }
 
-.info{
-  z-index: 2;
-  position: relative;
+.parallaxTwo {
+  background: url("../images/diamond-cover.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
 }
+.parallaxThree {
+  background: url("../images/quiz-cover.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+.parallaxFour {
+  background: url("../images/airplane-cover.gif") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+.parallaxFive {
+  background: url("../images/train-cover.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+.parallaxSix {
+  background: url("../images/celeb-horoscope-cover.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+#gamePlay {
+  float: left;
+  margin-top: 284px;
+  margin-left: 108px;
+  font-size: xx-large;
+}
+
+#gameTitle {
+  margin-left: 40%;
+  margin-bottom: 0.5%;
+}
+
 #footer {
     padding: 30px 0;
     clear: both;
