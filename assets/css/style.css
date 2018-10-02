@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
 }
 
+
 .fa {
   padding: 8px;
   font-size: 96px;
@@ -40,16 +41,33 @@ color:gold;
 
 .intro {
   position: absolute;
-  top: 50%;
-  left: 31%;
-  right: 40%;
-  margin-top: -50px;
-  color: white;
-  border:10px double white;
+    top: 32%;
+    left: 40%;
+    right: 45%;
+    margin-top: -50px;
+    color: white;
+    border: 10px double white;
+    /* padding: 12px; */
+    text-align: center;
 }
 
-button.startBtn {
-    float:right;
+#startBtn {
+  border: white 2px solid;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 10px;
+  transform-style: flat;
+  transition-duration: 100px;
+}
+
+#startBtn:hover {
+  border: green 2px solid;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 10px;
+  
 }
 
 .masthead {
@@ -85,20 +103,34 @@ button.startBtn {
     left:0px;
     right:50%;
     bottom:40%;
-    background-color:lightblue;
+    background-color:transparent;
     margin:20px;
+    border:white 10px solid;
 }
+
+#about h1 {
+  text-align: center;
+  margin-top:10px;
+  margin-top:105px;
+}
+
 #contact{
     position:absolute;
     top:12%; 
     right:0px;
     left:50%;
     bottom:0px;
-    background-color:green;
+    background-color:transparent;
     margin:20px;
-    background-image: url("../images/about.jpg");
+    /* background-image: url("../images/about.jpg");
     background-size: contain;
-    background-repeat:none;
+    background-repeat:none; */
+    border:white 10px solid;
+
+}
+#contact h1 {
+  text-align: center;
+  margin-top:247px;
 }
 
 #projects{
@@ -107,9 +139,14 @@ button.startBtn {
     left:0px;
     right:50%;
     bottom:0;
-    background-color:red;
+    background-color:transparent;
     margin:20px;
-    
+    border:white 10px solid;
+}
+
+#projects h1 {
+  text-align: center;
+  margin-top:91px;
 }
 
 #pageScrollTitle {
