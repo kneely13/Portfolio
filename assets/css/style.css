@@ -23,6 +23,7 @@ body {
 .fa-facebook {
   color: white;
   border:solid 1px white;
+  margin-left:900px;
 }
 
 .fa-instagram {
@@ -44,6 +45,7 @@ color:gold;
   right: 40%;
   margin-top: -50px;
   color: white;
+  border:10px double white;
 }
 
 button.startBtn {
@@ -149,8 +151,8 @@ button.startBtn {
 .parallaxContainer {
   /* max-width: 95%; */
   margin: 500px auto;
-  color:white;
-  background: lightgreen;
+  color:black;
+  background: white;
   font-size: 24px;
   /* padding:25px; */
 }

@@ -7,45 +7,57 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale"=1>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <header class="masthead">
-                <nav id="navBar">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="projects.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-    </header>
-    
+  <header class="masthead">
+      <nav id="navBar">
+          <a href="index.html"><img id="homeBtn" src="assets/images/home-icon.png" width="50px" height="50px"></a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://www.facebook.com/kristian.neely.50"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/kristianneely/"><i class="fa fa-instagram"></i></a>
+      </nav>
+  </header>
 
+  <div id="pageScrollTitle">
+    <h1>Contact Me</h1>
+    <p>scroll down symbol here</p>
+  </div>
+  
+  <div class="parallaxContainerAbout">
   <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
+      <section class="main-section">
+        <h1>Contact</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Kristian Neely" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="kneely13@students.ndc.edu" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Kristian Neely" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="kneely13@students.ndc.edu" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
 
-    </section>
+      </section>
 
   </div>
+  </div>
+    
+
+  
 
   <footer id="footer">
     <div class="container">
