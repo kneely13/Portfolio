@@ -62,7 +62,6 @@ button.startBtn {
     bottom:40%;
     background-color:lightblue;
     margin:20px;
-    
 }
 #contact{
     position:absolute;
@@ -72,6 +71,9 @@ button.startBtn {
     bottom:0px;
     background-color:green;
     margin:20px;
+    background-image: url("../images/about.jpg");
+    background-size: contain;
+    background-repeat:none;
 }
 
 #projects{
@@ -82,6 +84,7 @@ button.startBtn {
     bottom:0;
     background-color:red;
     margin:20px;
+    
 }
 
 #pageScrollTitle {
@@ -128,6 +131,29 @@ button.startBtn {
   font-size: 24px;
   /* padding:25px; */
 }
+
+.parallaxContainerAbout {
+  margin: 500px auto;
+  color: black;
+  background: whitesmoke;
+  font-size: 24px;
+  margin-bottom: -50px;
+}
+
+.parallaxContainerAbout img {
+  padding:5em;
+  margin-left: 31%;
+  border-radius: 25px;
+  border-radius: 50%;
+}
+
+.parallaxContainerAbout p {
+  padding: 4em;
+  /* max-width: 1008px; */
+  font-size: initial;
+  margin-top: -100px;
+}
+
 
 .parrallaxOne {
   background: url("../images/hangman-cover.jpg") no-repeat center;
@@ -185,7 +211,7 @@ button.startBtn {
     font-size: 15px;
     color: #fff;
     color: #ccc;
-    text-align: center;
+    align-items: center;
     background: #1D2F3E;
     border-top: 8px solid #4aaaa5;
     height: 100%;
