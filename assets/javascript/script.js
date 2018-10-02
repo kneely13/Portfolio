@@ -10,6 +10,12 @@ $(document).ready(function() {
         $(".boxes").show();
     })
 
+    $("#homeBtn").on("click", function() {
+        $(".intro").hide();
+        $(".masthead").hide();
+        $(".boxes").show();
+    })
+
     $("#about").on("click", function() {
         $(".intro").hide();
         $(".masthead").show();
