@@ -7,6 +7,12 @@ body {
     margin: 0 auto;
 }
 
+#homeBtn{
+  width:1px;
+  height:1px;
+}
+
+
 a {
   color:white;
 }
