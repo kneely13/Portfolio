@@ -250,8 +250,15 @@ color:gold;
   background-attachment: fixed;
   height: 450px;
 }
-.parallaxSix {
+.parallaxSeven {
   background: url("../images/celeb-horoscope-cover.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+.parallaxSix {
+  background: url("../images/LIRI-cover.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 450px;
