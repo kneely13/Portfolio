@@ -139,6 +139,14 @@ color:gold;
     border:white 10px solid;
 }
 
+#contact-form {
+  position: left;
+  border: red solid 10px;
+  max-width: 540px;
+  background-color: lightskyblue;
+  font-size:30px;
+}
+
 #contact h1 {
   text-align: center;
   margin-top:247px;
@@ -299,7 +307,11 @@ color:gold;
 }
 
 
+ul {
 
+  list-style-type: none;
+
+}
 
 .arrow {
   position: fixed;
