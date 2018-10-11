@@ -274,10 +274,11 @@ color:gold;
 }
 
 #gamePlay {
-  float: left;
-  margin-top: 284px;
-  margin-left: 108px;
-  font-size: xx-large;
+    float: left;
+    margin-top: 284px;
+    margin-right: -400px;
+    margin-left: -117px;
+    font-size: xx-large;
 }
 
 #gameTitle {
