@@ -79,7 +79,9 @@ color:gold;
     color: #fff;
     background-color: gray;
     opacity: 0.6;
-    
+    position:fixed;
+    margin-top: -500px;
+}
   }
 
   .masthead:hover {
@@ -91,9 +93,15 @@ color:gold;
     color:white;
   }
 
+
+   
+  
+
   nav {
     float: left;
-    margin-top: 10px;
+    margin-top: 21px;
+    /* position: fixed;
+    z-index: 10; */
   }
   
   nav a {
@@ -126,6 +134,10 @@ color:gold;
   text-align: center;
   margin-top:10px;
   margin-top:105px;
+}
+
+h1 {
+  margin-top:77px;
 }
 
 #contact{
