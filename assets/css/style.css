@@ -82,29 +82,25 @@ color:gold;
     position:fixed;
     margin-top: -500px;
 }
-  }
 
-  .masthead:hover {
+
+.masthead:hover {
     opacity: 1.0;
-  }
+}
 
-  #homeBtn {
+#homeBtn {
 
     color:white;
-  }
+}
 
-
-   
-  
-
-  nav {
+nav {
     float: left;
     margin-top: 21px;
     /* position: fixed;
     z-index: 10; */
-  }
+}
   
-  nav a {
+nav a {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
@@ -118,8 +114,12 @@ color:gold;
   }
   
 
+nav:hover {
 
-#about{
+  opacity: 1.0;
+}
+
+#about {
     position:absolute;
     top:12%; 
     left:0px;
@@ -152,11 +152,10 @@ h1 {
 }
 
 #contact-form {
-  position: left;
-  border: red solid 10px;
-  max-width: 540px;
-  background-color: lightskyblue;
-  font-size:30px;
+    border: blue solid 5px;
+    max-width: 900px;
+    background-color: lightskyblue;
+    font-size: 30px;
 }
 
 #contact h1 {
@@ -308,6 +307,7 @@ h1 {
 
 #footer {
     padding: 30px 0;
+    
     clear: both;
     font-size: 15px;
     color: #fff;
@@ -318,6 +318,14 @@ h1 {
     height: 100%;
 }
 
+.footerContainer{
+  background-color: gray;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  margin-top: 110px;
+}
 
 ul {
 
