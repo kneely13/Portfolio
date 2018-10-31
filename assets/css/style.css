@@ -292,6 +292,13 @@ h1 {
   height: 450px;
 }
 
+.parallaxEight {
+  background: url("../images/dating-app.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
 #gamePlay {
     float: left;
     margin-top: 284px;
