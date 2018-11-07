@@ -299,6 +299,13 @@ h1 {
   height: 450px;
 }
 
+.parallaxNine {
+  background: url("../images/burger-cover.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
 #gamePlay {
     float: left;
     margin-top: 284px;
