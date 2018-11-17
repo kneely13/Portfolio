@@ -1,5 +1,16 @@
-$(document).ready(function() {
 
+
+
+$(document).ready(function() {
+myFunction= function() {
+    var x = document.getElementById("navBar");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    
+}
     $(".masthead").hide();
     $(".boxes").hide();
     $("#footer").hide();
@@ -34,4 +45,8 @@ $(document).ready(function() {
         $(".boxes").hide();
     })
 
+    $('#topnav').on("click", function() {
+        console.log("this worked");
+        
+    })
 });
