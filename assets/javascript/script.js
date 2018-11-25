@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function() {
 myFunction= function() {
     var x = document.getElementById("navBar");
