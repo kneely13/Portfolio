@@ -1,4 +1,6 @@
 USE wq8968a3nb27ujgp;
+SELECT * FROM userInfo;
+
 
 DROP TABLE IF EXISTS userInfo;
 
@@ -9,4 +11,3 @@ createdAt TIMESTAMP NOT NULL,
 PRIMARY KEY(id)
 );
 
-SELECT * FROM userInfo;
