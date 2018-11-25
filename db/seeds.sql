@@ -1,9 +1,7 @@
-USE portfolio_db;
+USE wq8968a3nb27ujgp;
 
--- USE wq8968a3nb27ujgp;
+INSERT INTO userInfo (user_name, createdAt)
+VALUES('Kristian', CURRENT_TIMESTAMP);
 
-INSERT INTO userInfo (user_name)
-VALUES('Kristian'),
-      
-      
+
 SELECT * FROM userInfo;

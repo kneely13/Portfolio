@@ -1,14 +1,11 @@
-DROP DATABASE IF EXISTS portfolio_db;
-CREATE DATABASE portfolio_db;
+USE wq8968a3nb27ujgp;
 
-USE portfolio_db;
-
--- USE wq8968a3nb27ujgp;
-
+DROP TABLE IF EXISTS userInfo;
 
 CREATE TABLE userInfo (
-id INT AUTO_INCREMENT,
-user_name VARCHAR(25),
+id INT AUTO_INCREMENT NOT NULL,
+user_name VARCHAR(255),
+createdAt TIMESTAMP NOT NULL,
 PRIMARY KEY(id)
 );
 
