@@ -12,7 +12,9 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended:true}));
 app.use(bodyParser.json());
 
-
+app.get('/', function(){
+    return 'hello world'
+})
 // orm.select('/burgers', 'burger_names')
 // app.use("/", routes)
 
