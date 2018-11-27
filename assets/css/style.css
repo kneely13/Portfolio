@@ -3,9 +3,12 @@ body {
     font-size: 21px;
     line-height: 34px;
     color: #777;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/night-winter-mountain.jpg");
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 
 .fa {
@@ -24,13 +27,19 @@ body {
 .fa-facebook {
   color: white;
   border:solid 1px white;
-  margin-left:743px;
+  margin-left:687px;
 }
 
 .fa-instagram {
   color: white;
   border:solid 1px white; 
 }
+
+.fa-linkedin-square {
+  color: white;
+  border:solid 1px white; 
+}
+
 
 a {
   color:white;
@@ -44,7 +53,7 @@ color:gold;
     top: 32%;
     left: 40%;
     right: 45%;
-    margin-top: -50px;
+    margin-top: -100px;
     color: white;
     border: 10px double white;
     /* padding: 12px; */
@@ -125,15 +134,19 @@ nav:hover {
     left:0px;
     right:50%;
     bottom:40%;
-    background-color:transparent;
+    /* color: red; */
+    /* background-color:transparent; */
+    background-image: url("../images/snow-leopard-hd-wallpaper.jpg");
     margin:20px;
     border:white 10px solid;
+    background-repeat: cover;
+    background-size: 710px 330px;
 }
 
 #about h1 {
   text-align: center;
   margin-top:10px;
-  margin-top:105px;
+  margin-top:120px;
 }
 
 h1 {
@@ -141,14 +154,17 @@ h1 {
 }
 
 #contact{
+    background-image: url("../images/cleveland-ohio.jpg");
     position:absolute;
     top:12%; 
     right:0px;
     left:50%;
     bottom:0px;
-    background-color:transparent;
+    /* background-color:transparent; */
     margin:20px;
     border:white 10px solid;
+    background-repeat: no-repeat;
+    background-size: 715px 610px;
 }
 
 #contact-form {
@@ -164,19 +180,23 @@ h1 {
 }
 
 #projects {
+    background-image: url("../images/MUDA.png");
     position:absolute;
     top:60%; 
     left:0px;
     right:50%;
     bottom:0;
-    background-color:transparent;
+    /* background-color:transparent; */
     margin:20px;
     border:white 10px solid;
+    background-repeat: cover;
+    background-size: 710px 330px;
 }
 
 #projects h1 {
   text-align: center;
-  margin-top:91px;
+  margin-top:85px;
+  color:black;
 }
 
 #pageScrollTitle {
@@ -306,6 +326,13 @@ h1 {
   height: 450px;
 }
 
+.parallaxTen {
+  background: url("../images/beer-cover.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
 #gamePlay {
     float: left;
     margin-top: 284px;
@@ -336,9 +363,9 @@ h1 {
   background-color: gray;
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 5em;
   color: white;
-  margin-top: 110px;
+  margin-top: 48px;
 }
 
 ul {
@@ -388,29 +415,25 @@ ul {
 } */
 
 
-
 @media screen and (max-width: 835px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float:right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 835px) {
-  .topnav.responsive {position: absolute;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }.topnav .icon {
-    margin-left: 10em;
-}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float:right;
+      display: block;
+    }
+    .topnav.responsive {position: absolute;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }.topnav .icon {
+      margin-left: 10em;
+    } 
 }
 
 /* @media only screen and (max-width: 422px){
