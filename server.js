@@ -16,6 +16,12 @@ app.get('/', function(req, res){
     //business logic
     res.json({key:'value'})
 })
+
+app.get('/extra', function(req, res){
+    //business logic
+    res.json({key:'extra'})
+})
+
 // orm.select('/burgers', 'burger_names')
 // app.use("/", routes)
 
