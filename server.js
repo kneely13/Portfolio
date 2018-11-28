@@ -12,7 +12,7 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended:true}));
 app.use(bodyParser.json());
 // hello
-app.get('/', function(){
+app.get('/', function(req,res){
     return 'https://git.heroku.com/dry-basin-82574.git'
 })
 // orm.select('/burgers', 'burger_names')
