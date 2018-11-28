@@ -13,7 +13,8 @@ app.use(bodyParser.urlencoded({ extended:true}));
 app.use(bodyParser.json());
 // hello
 app.get('/', function(req, res){
-    res.send('hello world')
+    //business logic
+    res.json({key:'value'})
 })
 // orm.select('/burgers', 'burger_names')
 // app.use("/", routes)
