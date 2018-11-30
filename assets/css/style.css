@@ -390,16 +390,51 @@ ul {
   background-size: contain;
 }
 
-@media only screen and (max-width: 376px) {
+
+  
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+
+  body{
+    background-image: url("../images/iphoneX-mountain-background.jpeg");
+  }
+
   .intro {
-    top: 18%;
-    left: 19%;
-    right: 23%;
-    bottom: 22%;
-    margin-top: -100px; 
-    color: white;
-    border: 10px double white;
+    top: 26%;
+    left: 10%;
+    right: 11%;
+    margin-top: -102px;
     text-align: center;
+    bottom: 731px;
+    border: 45px double white;
+  }
+  .intro p {
     font-size: 100px;
-  } 
+    line-height: 200px;
+  }
+  .intro h1 {
+    font-size: 200px;
+    line-height: 187px;
+  }
+  #startBtn {
+    margin-top: -40px;
+    padding-top: 19px;
+    font-size: 100px;
+    line-height: 191px;
+    background-color: gray;
+  }
+  
+  /* #startBtn:hover {
+    border: green 2px solid;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+    
+  } */
+
+
 }
