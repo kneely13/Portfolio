@@ -413,7 +413,8 @@ and (-webkit-device-pixel-ratio : 3) {
   }
   .intro p {
     font-size: 100px;
-    line-height: 200px;
+    margin-top: 10px;
+    line-height: 141px;
   }
   .intro h1 {
     font-size: 200px;
