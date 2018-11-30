@@ -468,9 +468,9 @@ and (-webkit-device-pixel-ratio : 3) {
     margin-top:370px;
   }
 
-  /* h1 {
+  h1 {
     margin-top: -1179px;
-  } */
+  }
   .footerContainer {
     padding-bottom: 93em;
   }
