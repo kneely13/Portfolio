@@ -38,7 +38,7 @@ $(document).ready(function() {
     touchCheck();
     myFunction(); 
   
-    $(".masthead").hide();
+    // $(".masthead").hide();
     $(".boxes").hide();
     $("#footer").hide();
     

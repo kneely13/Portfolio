@@ -390,6 +390,10 @@ ul {
   background-size: contain;
 }
 
+.nav2 {
+  display: none;
+}
+
 /* @media screen and (min-width: 480px) {
   .js header[role="banner"] nav ul {
     
@@ -409,6 +413,14 @@ ul {
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) { 
+
+  #navBar {
+    display: none;
+  }
+
+  .nav2 {
+    display: block;
+  }
 
   body{
     background-image: url("../images/iphoneX-mountain-background.jpeg");
