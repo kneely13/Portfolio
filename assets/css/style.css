@@ -173,10 +173,15 @@ h1 {
 }
 
 #contact-form {
-    border: blue solid 5px;
+  
+    border: black;
+    border-style: groove;
     max-width: 900px;
-    background-color: lightskyblue;
+    background-color: azure;
     font-size: 30px;
+    border-block-start-style: inherit;
+    /* -webkit-box-align: center; */
+    margin-left: 104px;
 }
 
 #contact h1 {
@@ -266,12 +271,19 @@ h1 {
 
 .parallaxContainerAbout p {
   padding: 4em;
-  /* max-width: 1008px; */
+  max-width: 1008px;
   font-size: initial;
   margin-top: -100px;
 }
 
-
+p.email-intro {
+  font-family: monospace;
+  font-style: oblique;
+  margin-block-start: initial;
+  margin-inline-start: 90px;
+  padding-top: 1em;
+  font-size: unset;
+}
 .parrallaxOne {
   background: url("../images/hangman-cover.jpg") no-repeat center;
   background-size: cover;
