@@ -184,6 +184,14 @@ h1 {
     margin-left: 104px;
 }
 
+div.form-group {
+  margin-left:10px;
+}
+
+.form-control {
+  inline-size: 10px;
+}
+
 #contact h1 {
   text-align: center;
   margin-top:247px;
