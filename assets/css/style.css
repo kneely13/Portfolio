@@ -254,12 +254,12 @@ div.form-group {
 
 
 .parallaxContainer {
-  /* max-width: 95%; */
+  
   margin: 500px auto;
   color:black;
   background: white;
   font-size: 24px;
-  /* padding:25px; */
+  
 }
 
 .parallaxContainerAbout {
